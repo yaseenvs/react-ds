@@ -5,6 +5,13 @@
        font-family: "Raleway", sans-serif;
 
 }
+.logo img{
+   height: 100px;
+   padding-bottom: 250%;
+   padding-left: 20%;
+   padding-top: 30%;
+
+}
 .sidebar{
     justify-content: center;
     height: 100vh;
@@ -14,6 +21,11 @@
     align-items: center;
     gap: 35px;
     
+}
+.sidebar button{
+    background: none;
+    border: none;
+    border-left: 3px solid red;
 }
 .main{
     display: block;
@@ -38,6 +50,11 @@
     margin: 0;
     margin-top: 20px;
     /* margin-bottom: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.det img:hover{
+    transform: scale(1.1);
+     transition: transform 1s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .hero-button{
     margin-top: 30px;
@@ -61,9 +78,27 @@
 .b1{
     color: white;
     background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .b2{
     color: #000000;
     background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.new{
+    color: aliceblue;
+}
+/* .list{
+    display: flex;
+    gap:35px;
+    height: 300px;
+    width: 100px;
+} */
+.b1:hover{
+    transform: scale(1.1);
+     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.b2:hover{
+    transform: scale(1.1);
+     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
