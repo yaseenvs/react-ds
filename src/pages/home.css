@@ -22,11 +22,16 @@
     gap: 35px;
     
 }
+.sidebar :hover{
+     transform: scale(1.1);
+     transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
 .sidebar button{
     background: none;
     border: none;
     border-left: 3px solid red;
 }
+
 .main{
     display: block;
     width:95%;
@@ -88,12 +93,6 @@
 .new{
     color: aliceblue;
 }
-/* .list{
-    display: flex;
-    gap:35px;
-    height: 300px;
-    width: 100px;
-} */
 .b1:hover{
     transform: scale(1.1);
      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);

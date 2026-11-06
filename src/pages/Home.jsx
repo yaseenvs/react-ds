@@ -6,9 +6,9 @@ import trendIcon from "../assets/trend-up.svg"
 import addIcon from "../assets/plus.svg"
 import titlecard from "../assets/title.png"
 import logo from "../assets/logo.png"
+import user from "../assets/user-circle.svg"
 import'./home.css';
 import MovieCard from "../components/MovieCard";
-
 function Home() {
   return (
     <div className="netflix">
